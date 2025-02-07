@@ -1,0 +1,18 @@
+This entire directory holds all the components for the project.
+
+They are divided in 3 different directories, with their owwn subdirectives inside each.
+
+These are:
+
+-   atoms: By definition, the smallest components that can't be broken down further. Holds single components such as texts, containers and more.
+-   molecules: A collection of atoms formin a single component. An example is a form control that has the control itself and a text.
+-   organisms: An array of molecules forming a single component. Generally reserved for more complex components that require functionality. Such as forms and more.
+
+These subdirectories are used loosely to organize each component. But this does not restrict any of them from being used in any order
+or with other contexts. 
+The components hold in each also aren't locked by their division. You can, if you want, use an atom in an organism if it needs it, or 
+in a full screen. But best practice would be to only have a couple of components per component or screen, so be mindful when building
+something new.
+
+IMPORTANT if a component has functionality, you should try and put it under organisms, regardless if it can be broken down or not.
+There are single celled organisms in nature too.
